@@ -25,17 +25,17 @@ async function getWeatherData() {
 
         
         if (data.weather[0].main == "Clear") {
-            weatherImage.src = "clear.jpeg"   ;
+            weatherImage.src = "clear.png"   ;
         } else if (data.weather[0].main == "Snow") {
-            weatherImage.src = "snow.jpeg";
+            weatherImage.src = "snow.png";
         } else if (data.weather[0].main == "Clouds") {
-            weatherImage.src = "cloud.jpeg";
+            weatherImage.src = "cloud.png";
         } else if (data.weather[0].main == "Drizzle") {
-            weatherImage.src = "drizzle.jpeg";
+            weatherImage.src = "drizzle.png";
         } else if (data.weather[0].main == "Mist") {
-            weatherImage.src = "mist.jpeg";
+            weatherImage.src = "mist.png";
         } else if (data.weather[0].main == "Rain") {
-            weatherImage.src = "rain.jpeg";
+            weatherImage.src = "rain.png";
         }
         console.log(data);
     }
